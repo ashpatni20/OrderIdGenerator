@@ -86,7 +86,7 @@ function promiseData(orderItem){
     .then((data)=>{
       const text = document.getElementById('orderNumberDisplay');
     text.innerHTML = "";
-    text.innerHTML = data;
+    text.innerHTML = `OrderId:${data}`;
     })
     // console.log();
     
