@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins';
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* position: relative; */
+    border-bottom: 2px solid black;
+    
+    padding: 3%
+}
+.header h1{
+    margin-left: 10%;
+    color: tomato;
+}
+.headerimg{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nav{
+    display: flex;
+    gap: 20px; 
+}
+.cartbutton{
+    left: 4%;
+}
+
+#root{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1px;
+    padding: 10px 10px;
+    gap: 10px;
+    
+}
+.productsContainer{
+   
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    position: relative;
+    transition: 0.3s ease;
+    
+
+}
+.productsnumbercount{
+    position: absolute;
+    right: 2px;
+}
+
+.productImage{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+
+    transition: 0.3s ease;
+    
+}
+img:hover{
+    transform: scale(1.1);
+    
+}
+.cartLogo{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 18px;
+    border-radius: 50%; 
+    height: 30px;
+    width: 30px;
+    background-color: white;
+
+  
+}
+.cartLogo:hover{
+    color: tomato;
+ 
+}
+.productHeading{
+    font-size: 16px;
+}
