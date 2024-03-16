@@ -47,7 +47,7 @@ function burger() {
       root.children[idx].children[1].innerText = count;
       
       
-      let randomOrderId = Math.floor(Math.random()* 10000);
+      let randomOrderId = Math.floor(Math.random()* 1000);
       console.log(randomOrderId);
       
       let burgerName = root.children[idx].children[3].innerText;
